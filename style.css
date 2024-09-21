@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.logo  img {
+ width: 120px;
+ height: 90px;
+ margin-right: 5px;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.nav-section {
+    background-color: grey;
+}
+
+.nav-section .nav-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    /* overflow: hidden; */
+   
+}
+
+
+.nav-section .nav-list ul a {
+    text-decoration: 0;
+    display: block;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+}
+
+.nav-section .nav-list ul a:hover {
+    background-color: rgb(241, 7, 7);
+
+}
+
+.nav-list ul li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.open-nav {
+    display: none;
+}
+
+.products {
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+background-color: brown;
+width: 150px;
+height: 300px;
+margin: 10px;
+margin-right: 40px;
+}
+
+
+.product-image {
+width: 100%;
+height: 100%;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .logo {
+        width: 250px;
+        height: 100px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .logo h2 {
+        font-size: 25px;
+    }
+    
+    .logo  img {
+    margin-top: 10px;
+     width: 50px;
+     height: 50px;
+     margin-right: 5px;
+    }
+
+    .nav-section {
+        margin-top: 1px;
+    }
+
+/* ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+} 
+
+.nav-section .nav-list ul a {
+    background-color: grey;
+    width: 100%;
+} */
+
+/* 
+li {
+    background-color: 0;
+}
+
+.open-nav {
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+} i {
+    color: #fafafa;
+} */
+}
